@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    background-color: beige;
+}
+
+section {
+height: fit-content;
+width: fit-content;
+background-color: rgb(63, 2, 2);
+color: brown;
+display: grid;
+gap: 20px;
+padding: 20px;
+ grid-template-columns: repeat(4,lfr) ;
+ grid-template-rows: repeat(3,lfr) ;
+
+}
+section .c1 , .c2 , .c3 , .c4 , .c5{
+
+    /* height: 100px; */
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    background-color: bisque;
+    padding: 20px;
+}
+.c1{
+    grid-column:4 span ;
+}
+
+.c2{
+    grid-row:2/ 2 span ;
+    grid-column: 2 span ;
+}
+
+.c3{
+    grid-column:2 span ;
+}
+

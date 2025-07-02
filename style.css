@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #141414;
+}
+
+.card{
+ height:fit-content;
+ width: 400px;
+ border-radius: 20px ;
+ background-color: #1f1f1f;
+ position: relative;
+ padding: 20px;
+}
+
+.image{
+    height:100px;
+    width: 100px;
+    display: flex;
+   margin: 0 auto;
+
+}
+
+.button button{
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 12px;
+    height: 56px;
+    border: none;
+   
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+     text-align: center;
+}
+.town{
+    font-size: 18px;
+    font-weight: 500;
+    color: yellow;
+    text-align: center;
+}
+.role{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+     text-align: center;
+}
